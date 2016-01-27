@@ -1,0 +1,35 @@
+section
+{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+}
+
+nav
+{
+	width: 100%;
+	height: 350px;
+	background: #242830;
+	position: relative;
+	padding: 35px 5px 10px 5px;
+	display: none;
+}
+
+nav ul li
+{
+	margin-left:17%;
+	width: 1000px;
+}
+
+nav ul li a
+{
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 11pt;
+	text-decoration:none;
+	color: #9FA7AA;
+	transition: 0.5s;
+}
+
+
+
