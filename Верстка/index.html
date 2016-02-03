@@ -4,6 +4,16 @@
 
         <head>
             <meta charset="utf-8">
+			
+			<script> 
+				function fff(){
+						var size = [document.documentElement.clientWidth,document.documentElement.clientHeight]; 
+					window.onresize = function(){ 
+					document.body.style.zoom=document.documentElement.clientWidth/size[0]; 
+					} 
+				}
+
+			</script>
 
             <link href="reset.css" rel="stylesheet">
             <link href="style.css" rel="stylesheet">
@@ -17,7 +27,7 @@
 		
         </head>
 
-        <body>
+        <body onload="fff()" onresize="fff()">
 		
 			<section class="main-screen">
 			
@@ -32,7 +42,7 @@
 					</ul>
 				</nav>
 				
-				<div class="self-info"><img src="img/bg.svg"></div>
+				<!-- <div class="self-info"><img src="img/bg.svg"></div> -->
 				
 				<div class="general-block">
 		
@@ -58,7 +68,7 @@
 							</div>
 					</div>
 					
-					<!-- <div class="violet-brill"></div> -->
+					<div class="violet-brill"></div> 
 					
 					
 					<div class="button button-main">
@@ -71,6 +81,7 @@
 			</section>
 			
 			<section class="about-screen">
+			
 			<h1>
 				ABOUT
 			</h1>
